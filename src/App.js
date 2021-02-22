@@ -23,7 +23,7 @@ import {
   Education,
   Experience,
   Skills,
-  Interest,
+  //   Interest,
   ChatBox,
 } from "./component";
 import "./component/SelfPortrait.css";
