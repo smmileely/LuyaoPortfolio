@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Container } from "react-bootstrap";
 // import { NavHashLink as NavLink } from "react-router-hash-link";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Profile, Education, Experience, Skills, Interest, ChatBox } from "./";
+// import { Profile, Education, Experience, Skills, Interest, ChatBox } from "./";
 
 // export function SideBar() {
 //   return (
