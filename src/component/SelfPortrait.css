@@ -1,0 +1,27 @@
+.aboutMePortrait {
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  object-position: 100% 0;
+}
+
+.home-hero {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  min-height: 85vh;
+  background-color: #f2f2f2;
+}
+
+.home-hero h1 {
+  font-size: 4.5em;
+}
+
+.btn.btn-hero {
+  font-size: 16px;
+  align-items: center;
+}
+
+.SelfPortrait {
+  height: 300px;
+  width: 300px;
+}
