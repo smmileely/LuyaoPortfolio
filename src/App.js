@@ -118,7 +118,7 @@ export default function App() {
       <Container>
         <Row>
           <Col xs={6} md={4}>
-            <Image src={ProfilePic} roundedCircle />
+            <Image src={ProfilePic} className="aboutMePortrait" roundedCircle />
           </Col>
           <Col xs={12} md={8}>
             Content
