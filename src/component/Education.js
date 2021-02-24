@@ -1,5 +1,14 @@
 import React from "react";
 
 export function Education() {
-  return <h1 style={{ height: "500px" }}>Education</h1>;
+  return (
+    <div id="education" style={{ height: "500px" }}>
+      <h1>Education</h1>
+      <header>NUS</header>
+      <p>jfkdsk</p>
+      <br></br>
+      <header>NCKU</header>
+      <body>jfdksjfk</body>
+    </div>
+  );
 }

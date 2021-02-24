@@ -1,5 +1,9 @@
 import React from "react";
 
 export function Experience() {
-  return <h1 style={{ height: "500px" }}>Experience</h1>;
+  return (
+    <div id="experience" style={{ height: "500px" }}>
+      <h1>Experience</h1>
+    </div>
+  );
 }

@@ -1,5 +1,9 @@
 import React from "react";
 
 export function Interest() {
-  return <h1 style={{ height: "500px" }}>Interest</h1>;
+  return (
+    <div id="interest" style={{ height: "500px" }}>
+      <h1>Interest</h1>
+    </div>
+  );
 }
