@@ -8,27 +8,24 @@ import {
   Form,
   Button,
 } from "react-bootstrap";
-import ProfilePic from "./assets/profilePic.PNG";
 import {
-  Profile,
   SideBar,
   Education,
-  Experience,
+  // Experience,
   Skills,
   Interest,
   ChatBox,
+  Header,
 } from "./component";
-import "./component/SelfPortrait.css";
+
+import Experience from "./component/Experience";
 
 export default function App() {
   return (
     <Container fluid>
       <Row>
-        <Col xs={6} md={4}>
-          <Image src={ProfilePic} className="aboutMePortrait" roundedCircle />
-        </Col>
         <Col xs={12} md={4}>
-          <Profile />
+          <Header />
         </Col>
       </Row>
       <Row>
